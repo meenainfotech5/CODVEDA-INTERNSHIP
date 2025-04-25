@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="logo">
+            <span class="company__name">AirBreeze</span>
+            </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn nav__btn">Book Now</button>
+      </nav>
+      <div class="section__container header__container" id="home">
+      <h1>Every Stay Feel Special With<span>AirBreeze</span> </h1>
+      </div>
+    </header>
+<!---------------------------------Home---------------------------------------------------->
+   
+    <section class="section__container booking__container">
+      <form action="/" class="booking__form">
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">CHECK-IN</label>
+            <input type="date" class="date-input" placeholder="Check In" autocomplete="off" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">CHECK-OUT</label>
+            <input type="date"  class="date-input" placeholder="Check Out" autocomplete="off" />
+          </div>
+        </div>
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">ADULT</label>
+            <input type="text" placeholder="Guest" />
+          </div>
+        </div>
+       
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">CHILDHREN</label>
+            <input type="text" placeholder="Guest" />
+          </div>
+        </div>
+       
+        <div class="input__group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">LOCATION</label>
+            <input type="text" class="location" placeholder="Anywhere" />
+          </div>
+        </div>
+       <div class="input__group input__btn">
+          <button class="btn">SEARCH</button>
+        </div>
+      </form>
+    </section>
+
+<!--------------------------------About------------------------------------------------->
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/Aboutus.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">It All Starts With a Breeze!</h2>
+        <p class="section__description">
+          Airbreeze is one of the most successful and disruptive companies in the world. It has revolutionized the way people travel, stay, 
+          and experience new places.It has also challenged the traditional hotel industry and created a new economy of hosts and guests.<br><br>
+          Airbreeze's growth story is not only inspiring, but also instructive. It shows how a simple idea can turn into a global phenomenon 
+          with the right execution, innovation, and perseverance.It also shows how a startup can overcome various challenges and obstacles by being customer-centric, data-driven, and agile.
+          
+        </p>
+        <div class="about__btn">
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container room__container">
+    <h2 class="section__header">Your Perfect Stays Starts Here!.....</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/image1.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Cook,Dine,Relax</h4>
+            <p>
+              Enjoy a fully-equipped kitchen with modern appliances,perfect for cooking
+              your Favorite meals or simply unwinding after a busy day.
+            </p>
+            <h5>Starting from <span>$299/Day</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/image2.png" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Sleep in Comfort</h4>
+            <p> Rest easy in our cozy,serene bedroom.complete with premium linens and a peaceful atmosphere,
+            it's your perfect retreat.
+            </p>
+            <h5>Starting from <span>$399/Day</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room__card">
+          <div class="room__card__image">
+            <img src="assets/image3.jpg" alt="room" />
+            <div class="room__card__icons">
+              <span><i class="ri-heart-fill"></i></span>
+               <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room__card__details">
+            <h4>Gather and Unwind Description</h4>
+            <p>
+              A Spacious,styling living room designed for relaxation and connection.Perfect for lounging,
+              watching movies,or simply enjoying good company.
+            </p>
+            <h5>Starting from <span>$199/Day</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--------------------------Service------------------------------------> 
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader">SERVICES</p>
+          <h2 class="section__header">Strive Only For The Best.</h2>
+          <ul class="service__list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              High Class Security
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              24/7 CCTV Survelieance
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>
+              Customer Support
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+              Tourist Guide Support
+            </li>
+          </ul>
+        </div>
+      </div>
+     </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__content">
+        <div class="banner__card">
+          <h4>100+</h4>
+          <p>Properties Available</p>
+        </div>
+        <div class="banner__card">
+          <h4>600+</h4>
+          <p>Bookings Completed</p>
+        </div>
+        <div class="banner__card">
+          <h4>900+</h4>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </section>
+
+<!----------------Explore---------------------------------------------------->
+    <section class="explore" id="explore">
+      <p class="section__subheader">EXPLORE</p>
+      <h2 class="section__header">Beach Bliss Awaits!...</h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <p class="section__description">Book Now and Get 15% On Your First Beach Stay!</p>
+          <h4>Breathe in the first mountain air and enjoy stunning scenic views all around.</h4>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+<!--------------------------Footer------------------------------------------------>
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <span class="company__name">AirBreeze</span>
+           </div>
+          <p class="section__description">
+           AirBreeze connects you with stylish and comfortable stays across the global.
+           We offer Verified listing,secure payments and 24/7 support for a hassle-free experience.
+           Stay smart,travel Easy-only with AirBreeze.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Browse Stays</a></li>
+            <li><a href="#">Host a Peoperty</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Easy Home Booking</a></li>
+            <li><a href="#">Verified Property Listing</a></li>
+            <li><a href="#">24/7 CCTV Survelieance</a></li>
+            <li><a href="#">Secure Online Payments</a></li>
+            <li><a href="#">Mobile App Access</a></li>
+            <li><a href="#">Wishlist & Save Favorites </a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li><a href="#">airbreeze@info.com</a></li>
+          </ul>
+          <div class="footer__socials">
+            <a href="#"><img src="assets/twitter.png" alt="twitter" /></a>
+            <a href="#"><img src="assets/instagram.png" alt="instagram" /></a>
+            <a href="#"><img src="assets/facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="assets/youtube.png" alt="youtube" /></a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Airbreeze | All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
